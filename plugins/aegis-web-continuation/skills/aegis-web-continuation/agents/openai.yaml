@@ -1,0 +1,6 @@
+interface:
+  display_name: "AEGIS Web Continuation"
+  short_description: "ทำงานวิศวกรรมต่อจาก GitHub อย่างมีขอบเขต"
+  default_prompt: "Use $aegis-web-continuation to continue the scoped GitHub task from its verified checkpoint."
+policy:
+  allow_implicit_invocation: true

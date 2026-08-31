@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#07111f"/>
+  <text x="60" y="72" fill="#f8fafc" font-family="Arial, sans-serif" font-size="38" font-weight="700">Safe Handoff from PC to Phone</text>
+  <text x="60" y="112" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">Push a verifiable checkpoint before leaving the local machine.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="70" y="180" width="310" height="330" rx="24" fill="#111827" stroke="#60a5fa" stroke-width="3"/>
+    <text x="105" y="235" fill="#dbeafe" font-size="28" font-weight="700">Local PC</text>
+    <text x="105" y="285" fill="#bfdbfe" font-size="21">1. Review git status</text>
+    <text x="105" y="330" fill="#bfdbfe" font-size="21">2. Stage exact files</text>
+    <text x="105" y="375" fill="#bfdbfe" font-size="21">3. Commit checkpoint</text>
+    <text x="105" y="420" fill="#bfdbfe" font-size="21">4. Push exact branch</text>
+    <rect x="445" y="180" width="310" height="330" rx="24" fill="#111827" stroke="#cbd5e1" stroke-width="3"/>
+    <text x="480" y="235" fill="#f8fafc" font-size="28" font-weight="700">GitHub</text>
+    <text x="480" y="285" fill="#e2e8f0" font-size="21">Repository identity</text>
+    <text x="480" y="330" fill="#e2e8f0" font-size="21">Branch + commit SHA</text>
+    <text x="480" y="375" fill="#e2e8f0" font-size="21">Issue / PR context</text>
+    <text x="480" y="420" fill="#e2e8f0" font-size="21">Verified test results</text>
+    <rect x="820" y="180" width="310" height="330" rx="24" fill="#111827" stroke="#2dd4bf" stroke-width="3"/>
+    <text x="855" y="235" fill="#ccfbf1" font-size="28" font-weight="700">Phone / Web</text>
+    <text x="855" y="285" fill="#99f6e4" font-size="21">1. Invoke @AEGIS</text>
+    <text x="855" y="330" fill="#99f6e4" font-size="21">2. Validate identity</text>
+    <text x="855" y="375" fill="#99f6e4" font-size="21">3. Load valid evidence</text>
+    <text x="855" y="420" fill="#99f6e4" font-size="21">4. Continue or block</text>
+    <path d="M380 345 H430" stroke="#60a5fa" stroke-width="7"/><polygon points="430,345 414,335 414,355" fill="#60a5fa"/>
+    <path d="M755 345 H805" stroke="#2dd4bf" stroke-width="7"/><polygon points="805,345 789,335 789,355" fill="#2dd4bf"/>
+  </g>
+  <rect x="70" y="550" width="1060" height="70" rx="16" fill="#3b1d0b" stroke="#fb923c" stroke-width="2"/>
+  <text x="100" y="594" fill="#ffedd5" font-family="Arial, sans-serif" font-size="21">Uncommitted local files cannot be recovered by Web or Codex Cloud while the PC is offline.</text>
+</svg>
+

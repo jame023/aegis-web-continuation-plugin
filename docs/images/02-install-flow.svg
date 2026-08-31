@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#07111f"/>
+  <text x="60" y="72" fill="#f8fafc" font-family="Arial, sans-serif" font-size="38" font-weight="700">Windows Installation Flow</text>
+  <text x="60" y="112" fill="#94a3b8" font-family="Arial, sans-serif" font-size="22">Preview first. Apply only after paths and conflicts are reviewed.</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(65 205)"><circle cx="92" cy="92" r="86" fill="#172554" stroke="#60a5fa" stroke-width="3"/><text x="92" y="82" fill="#dbeafe" font-size="42" font-weight="700">1</text><text x="92" y="124" fill="#bfdbfe" font-size="20">Unzip package</text></g>
+    <g transform="translate(290 205)"><circle cx="92" cy="92" r="86" fill="#312e0b" stroke="#facc15" stroke-width="3"/><text x="92" y="82" fill="#fef9c3" font-size="42" font-weight="700">2</text><text x="92" y="118" fill="#fef08a" font-size="20">Run preview</text><text x="92" y="143" fill="#fde047" font-size="15">PREVIEW_ONLY</text></g>
+    <g transform="translate(515 205)"><circle cx="92" cy="92" r="86" fill="#052e2b" stroke="#2dd4bf" stroke-width="3"/><text x="92" y="82" fill="#ccfbf1" font-size="42" font-weight="700">3</text><text x="92" y="118" fill="#99f6e4" font-size="20">Apply install</text><text x="92" y="143" fill="#5eead4" font-size="15">-Apply</text></g>
+    <g transform="translate(740 205)"><circle cx="92" cy="92" r="86" fill="#3b1d0b" stroke="#fb923c" stroke-width="3"/><text x="92" y="82" fill="#ffedd5" font-size="42" font-weight="700">4</text><text x="92" y="118" fill="#fed7aa" font-size="20">Restart app</text><text x="92" y="143" fill="#fdba74" font-size="15">Reload marketplace</text></g>
+    <g transform="translate(965 205)"><circle cx="92" cy="92" r="86" fill="#2e1065" stroke="#c084fc" stroke-width="3"/><text x="92" y="82" fill="#f3e8ff" font-size="42" font-weight="700">5</text><text x="92" y="118" fill="#e9d5ff" font-size="20">Install plugin</text><text x="92" y="143" fill="#d8b4fe" font-size="15">Plugins - Personal</text></g>
+    <path d="M248 297 H275 M473 297 H500 M698 297 H725 M923 297 H950" stroke="#64748b" stroke-width="5"/>
+  </g>
+  <rect x="90" y="475" width="1020" height="110" rx="18" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <text x="120" y="520" fill="#f8fafc" font-family="Consolas, monospace" font-size="19">powershell -ExecutionPolicy Bypass -File .\Install-AEGISWebContinuation.ps1</text>
+  <text x="120" y="557" fill="#5eead4" font-family="Consolas, monospace" font-size="19">powershell -ExecutionPolicy Bypass -File .\Install-AEGISWebContinuation.ps1 -Apply</text>
+</svg>
+

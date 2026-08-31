@@ -1,0 +1,19 @@
+{
+  "name": "aegis-web-continuation",
+  "version": "1.0.0",
+  "description": "Continue a verified AEGIS engineering task from GitHub in ChatGPT Web or Codex Cloud without widening its boundaries.",
+  "author": {
+    "name": "AEGIS MINI"
+  },
+  "repository": "https://github.com/jame023/aegis-web-continuation-plugin",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AEGIS Web Continuation",
+    "shortDescription": "Continue scoped GitHub engineering work safely.",
+    "longDescription": "Resume an interrupted repository task from verified GitHub, AEGIS state, evidence, and current code. The skill preserves security, scope, approval, and verification boundaries and never grants repository or shell access by itself.",
+    "developerName": "AEGIS MINI",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "defaultPrompt": "Continue this verified GitHub task from its latest AEGIS checkpoint without repeating completed work or widening scope."
+  }
+}

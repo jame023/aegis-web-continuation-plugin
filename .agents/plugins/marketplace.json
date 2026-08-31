@@ -1,0 +1,20 @@
+{
+  "name": "aegis-web-continuation",
+  "interface": {
+    "displayName": "AEGIS Web Continuation"
+  },
+  "plugins": [
+    {
+      "name": "aegis-web-continuation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/aegis-web-continuation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
